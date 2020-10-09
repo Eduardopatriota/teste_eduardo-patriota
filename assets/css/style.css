@@ -9,6 +9,12 @@
 # General
 --------------------------------------------------------------*/
 
+.size_page {
+  max-width: 1600px;
+  margin: 0 auto;
+  align-content: center;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -100,12 +106,11 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
-.menu2{
+.menu2 {
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
-  
 }
 
 @media (max-width: 992px) {
@@ -400,7 +405,6 @@ section {
 .list-item {
   display: flex;
   padding: 10px;
-  
 }
 
 .list-item__image {
@@ -409,17 +413,12 @@ section {
   height: 32px;
 }
 
-.list-item__content {
-  
-}
+.list-item__content {}
 
 .textoBloco {
   margin: 0;
   font-size: 14px;
-  
 }
-
-
 
 /*--------------------------------------------------------------
 # Clients
@@ -453,7 +452,88 @@ section {
   background-color: #e03a3c !important;
 }
 
+/*--------------------------------------------------------------
+# Cards Roupas
+--------------------------------------------------------------*/
+.card{
+  border: none;
+  padding: 15px;
+}
+.card-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
 
+.card-sub-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.card-text {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.cor-roupa {
+  width: 27px;
+  height: 27px;
+  background-color: #DEAC71;
+  border: 1px solid #353535;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.cor-roupa2 {
+  width: 27px;
+  height: 27px;
+  background-color: #D37164;
+  border-radius: 4px;
+}
+
+.cor-roupa3 {
+  width: 27px;
+  height: 27px;
+  background-color: #6497D3;
+  border-radius: 4px;
+}
+
+.cor-roupa4 {
+  width: 27px;
+  height: 27px;
+  background-color: #3C3B79;
+  border-radius: 4px;
+}
+
+.aling-cor-roupa {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  height: 27px;
+  padding-bottom: 30px;
+}
+
+.btn-primary {
+  background: #FAA500;
+  border-radius: 4px;
+  width: 254px;
+  border-color: #FAA500;
+}
+
+.aling-card-roupa{
+  display: flex;
+  justify-content: space-between;
+}
 
 /*--------------------------------------------------------------
 # Footer

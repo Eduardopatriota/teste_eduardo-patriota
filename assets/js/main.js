@@ -228,3 +228,7 @@
   });
 
 })(jQuery);
+
+//carrousel
+
+$('.carrousel').slick();
